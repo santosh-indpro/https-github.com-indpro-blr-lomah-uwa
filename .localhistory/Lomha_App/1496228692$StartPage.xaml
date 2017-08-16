@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="Lomha_App.StartPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lomha_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ContentDialogBorderThemeBrush}">
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="523,255,0,0" VerticalAlignment="Top" Height="207" Width="932" FontSize="20" FontStretch="UltraExpanded" FontStyle="Italic" FontWeight="SemiLight" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform ScaleX="10" ScaleY="10"/>
+            </Button.RenderTransform>
+            <Button.Flyout>
+                <Flyout>
+                    <Grid Height="100" Width="100"/>
+                </Flyout>
+            </Button.Flyout>
+        </Button>
+
+    </Grid>
+</Page>

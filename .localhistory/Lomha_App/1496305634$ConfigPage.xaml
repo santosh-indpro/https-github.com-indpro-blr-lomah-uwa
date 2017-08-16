@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Lomha_App.ConfigPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lomha_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Background="{ThemeResource ContentDialogBorderThemeBrush}">
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="73,228,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="989"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="73,171,0,0" TextWrapping="Wrap" Text="Please enter LOMHA app web address" VerticalAlignment="Top" RenderTransformOrigin="4.377,-2.156" Style="{StaticResource BaseTextBlockStyle}" Foreground="White" FontSize="36" Width="1210" Height="52"/>
+        <Button x:Name="button" Content="Save" HorizontalAlignment="Left" Margin="73,288,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.247,-2.56" Click="button_Click" Foreground="White" Height="54" Background="#FF0078D7" BorderBrush="White" FontSize="24" Width="114"/>
+        <Button x:Name="button_Back" Content="Back" HorizontalAlignment="Left" Margin="262,288,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.247,-2.56" Click="button_Back_Click" Foreground="White" Height="54" Background="#FF0078D7" BorderBrush="White" Width="114" FontSize="24"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="73,26,0,0" TextWrapping="Wrap" Text="Application Settings" VerticalAlignment="Top" Foreground="{ThemeResource AppBarBackgroundThemeBrush}" FontSize="72" OpticalMarginAlignment="TrimSideBearings" FontWeight="SemiLight" FontStyle="Italic" Width="788"/>
+        <Line
+            X1="10" Y1="58"
+            X2="650" Y2="60"
+            Stroke="White"
+            StrokeThickness="4" Width="1480" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="52,60,0,0"/>
+    </Grid>
+</Page>

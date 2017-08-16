@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Lomha_App.StartPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lomha_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ContentDialogBorderThemeBrush}">
+        <Button x:Name="button" Content="Continue" HorizontalAlignment="Left" Margin="10,0,0,863" VerticalAlignment="Bottom" Height="207" Width="305" FontSize="72" FontStretch="UltraExpanded" FontStyle="Italic" FontWeight="SemiLight" Background="#FF0078D7" BorderBrush="#FF0078D7" Click="button_Click"></Button>
+        <Button x:Name="button1" Content="Settings" HorizontalAlignment="Left" Margin="41,974,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.35,-4.349" Background="#FF0078D7" BorderBrush="#FF0078D7" Foreground="Black" Height="43" Width="119" FontSize="22" Click="button1_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="734,479,0,0" TextWrapping="Wrap" Text="LOMHA" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.5,0.5" FontWeight="SemiLight" FontStretch="ExtraExpanded" Height="23" Width="56" SelectionChanged="textBlock_SelectionChanged">
+            <TextBlock.RenderTransform>
+                <CompositeTransform ScaleX="10" ScaleY="10"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+    </Grid>
+</Page>
